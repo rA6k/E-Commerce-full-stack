@@ -1,0 +1,15 @@
+table tr td img{
+    height:200px;
+    width:200px;
+
+}
+table tr td  :hover{
+    color : rgb(0, 128, 23);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+
+    }
+    table{
+        margin-top: 1%;
+    }
+    

@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1 align="center">SignIn</h1>
+                    <h6>Please enter email & password!!</h6>
+                </div>
+<div class="main">
+    <h1 align="center">Admin SignIn</h1>
+    <div class="item-icon">
+       <div class="icon">
+        </div>
+        <label for="email" align="center"> Email </label><br>
+        <input type="text" [(ngModel)]="email" placeholder="Email">
+    </div>
+    <br />
+    <div class="item-icon">
+       <div class="icon">
+        </div>
+        <label for="password"> Password </label><br>
+        <input type="password" [(ngModel)]="password" placeholder="Password">
+    </div>
+    <br/>
+    <div>
+        <button (click)="signIn()" class="btn btn-primary" >SignIn</button>
+    </div>
+</div>
